@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.771" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-06-05T14:33:35" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="reminders_api" timestamp="2024-06-05T14:33:35" tests="12" file="C:\Users\CSC\Documents\HackerRank-Nodejs-Solutions\reminders_api\test\index.spec.js" time="0.705" failures="0">
+    <testcase name="reminders_api should create a new reminder" time="0.111" classname="should create a new reminder">
+    </testcase>
+    <testcase name="reminders_api should fetch all the reminders" time="0.075" classname="should fetch all the reminders">
+    </testcase>
+    <testcase name="reminders_api should fetch no reminders if no matching results are present for user" time="0.063" classname="should fetch no reminders if no matching results are present for user">
+    </testcase>
+    <testcase name="reminders_api should fetch no reminders if no matching results are present after the date" time="0.061" classname="should fetch no reminders if no matching results are present after the date">
+    </testcase>
+    <testcase name="reminders_api should fetch all the reminders for a user" time="0.061" classname="should fetch all the reminders for a user">
+    </testcase>
+    <testcase name="reminders_api should fetch all the reminders after the date" time="0.060" classname="should fetch all the reminders after the date">
+    </testcase>
+    <testcase name="reminders_api should fetch all the reminders for a user after the date" time="0.057" classname="should fetch all the reminders for a user after the date">
+    </testcase>
+    <testcase name="reminders_api should fetch a single reminder" time="0.018" classname="should fetch a single reminder">
+    </testcase>
+    <testcase name="reminders_api should get 404 if the reminder ID does not exist" time="0.010" classname="should get 404 if the reminder ID does not exist">
+    </testcase>
+    <testcase name="reminders_api should get 405 for a put request to /reminders/:id" time="0.020" classname="should get 405 for a put request to /reminders/:id">
+    </testcase>
+    <testcase name="reminders_api should get 405 for a patch request to /reminders/:id" time="0.016" classname="should get 405 for a patch request to /reminders/:id">
+    </testcase>
+    <testcase name="reminders_api should get 405 for a delete request to /reminders/:id" time="0.023" classname="should get 405 for a delete request to /reminders/:id">
+    </testcase>
+  </testsuite>
+</testsuites>
