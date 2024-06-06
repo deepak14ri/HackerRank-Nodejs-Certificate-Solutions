@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.9830" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-06-06T14:17:14" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="analytics_api_medium" timestamp="2024-06-06T14:17:14" tests="8" file="C:\Users\CSC\Documents\HackerRank-Nodejs-Solutions\Analytics Ingestion API\test\index.spec.js" time="0.9830" failures="0">
+    <testcase name="analytics_api_medium should ingest all the data correctly" time="0.1060" classname="should ingest all the data correctly">
+    </testcase>
+    <testcase name="analytics_api_medium should avoid duplicated and return all the ingested events correctly" time="0.1530" classname="should avoid duplicated and return all the ingested events correctly">
+    </testcase>
+    <testcase name="analytics_api_medium should ingest click events only once per user every 3 seconds" time="0.1860" classname="should ingest click events only once per user every 3 seconds">
+    </testcase>
+    <testcase name="analytics_api_medium should ingest pageView events only once per user every 5 seconds" time="0.1130" classname="should ingest pageView events only once per user every 5 seconds">
+    </testcase>
+    <testcase name="analytics_api_medium should return the ingested events count correctly after few iterations" time="0.2350" classname="should return the ingested events count correctly after few iterations">
+    </testcase>
+    <testcase name="analytics_api_medium should get 405 for a put request to /analytics/:id" time="0.0360" classname="should get 405 for a put request to /analytics/:id">
+    </testcase>
+    <testcase name="analytics_api_medium should get 405 for a delete request to /analytics/:id" time="0.0600" classname="should get 405 for a delete request to /analytics/:id">
+    </testcase>
+    <testcase name="analytics_api_medium should get 405 for a patch request to /products/:id" time="0.0940" classname="should get 405 for a patch request to /products/:id">
+    </testcase>
+  </testsuite>
+</testsuites>
